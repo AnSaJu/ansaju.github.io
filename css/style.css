@@ -1,0 +1,42 @@
+.jp-blue,
+.jp-hover-blue:hover {
+    color: rgba(68, 68, 64) ;
+    background-color: rgba(91, 167, 209) !important
+}
+
+.jp-black,
+.jp-hover-black:hover {
+    color: rgba(255, 255, 255) !important;
+    background-color: rgba(68, 68, 64) !important
+}
+
+.jp-green,
+.jp-hover-green:hover {
+    color: rgba(68, 68, 64) ;
+    background-color: rgba(108, 172, 72) !important
+}
+
+
+.jp-img {
+    transition: width 1s, height 1s, transform 1s;
+    filter: drop-shadow(8px 8px 10px  rgba(68, 68, 64));
+}
+
+.jp-img:hover {
+    /* filter: opacity(50%); */
+    /* filter: saturate(3); */
+    /* filter: grayscale(0%); */
+    filter: drop-shadow(8px 8px 10px  rgba(91, 167, 209));
+    transform: scale(1.2, 1.2);
+    
+}
+
+.jp-shadow{
+    /* box-shadow: 10px 10px 5px lightblue;
+    box-shadow: 10px 10px 5px lightblue; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* body{
+    background-color: brown;
+} */
